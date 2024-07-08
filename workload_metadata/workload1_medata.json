@@ -1,0 +1,6 @@
+{
+  "task1": {
+    "script_name": "test_plans/script1.jmx",
+    "user_files": "user_files/userfile1.csv"
+  }
+}
