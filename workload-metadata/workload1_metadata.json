@@ -1,5 +1,5 @@
 {
-  "jmeter_version": "5.6.2",
+  "jmeter_version": "5.6.3",
   "tasks": [
     {
       "task_name": "task1",
