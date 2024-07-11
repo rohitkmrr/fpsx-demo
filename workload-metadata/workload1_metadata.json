@@ -19,7 +19,7 @@
     {
       "task_name": "task4",
       "script_name": "script3.jmx",
-      "user_files": ""
+      "user_files": "users3.csv"
     }
   ]
 }
