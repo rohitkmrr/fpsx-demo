@@ -1,0 +1,16 @@
+{
+  "jmeter_version" : "5.6.3",
+  "tasks": [
+    {
+      "task_name": "task1",
+      "script_name": "script4.jmx",
+      "user_files": "users1.csv",
+      "data_files": [
+        {
+          "FILE1": "data.csv",
+          "FILE2": "data.csv"
+        }
+      ]
+    }
+  ]
+}
