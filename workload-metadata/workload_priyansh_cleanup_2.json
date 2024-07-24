@@ -1,0 +1,9 @@
+{
+  			"tasks": [
+    		{
+		    	"task_name": "task1",
+		    	"script_name": "script1.jmx",
+		    	"user_files": "users1.csv"
+		    }
+		  ]
+		}
