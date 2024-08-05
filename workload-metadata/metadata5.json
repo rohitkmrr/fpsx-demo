@@ -5,11 +5,11 @@
       "task_name": "task1",
       "script_name": "script5.jmx",
       "user_files": "users1.csv",
-      "data_files": [
+      "data_files": 
         {
           "contactsFile": ""
         }
-      ]
+      
     }
   ]
 }
