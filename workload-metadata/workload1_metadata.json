@@ -4,7 +4,7 @@
     {
     "task_name": "task1",
     "script_name": "script1.jmx",
-    "users_file": "users1.csv"
+    "users_file": "users1.csv",
     }
   ]
 }
