@@ -7,7 +7,7 @@
       "user_files": "users1.csv",
       "data_files": 
         {
-          "contactsFile": ""
+          "contactsFile": "contacts.csv"
         }
       
     }
