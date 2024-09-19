@@ -9,7 +9,7 @@
         {
           "contacts_file": "contacts.csv",
           "FILE2": "data.csv"
-        }
+        },
         "arguments": {
           "threads": "100",
           "ramp_up": "30",
