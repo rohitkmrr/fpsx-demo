@@ -5,9 +5,9 @@
         "task_name": "task1",
         "script_name": "script1.jmx",
         "arguments": {
-          "threads": 100,
-          "ramp_up": 30,
-          "duration": 600
+          "threads": "100",
+          "ramp_up": "30",
+          "duration": "600"
         }
       }
     ]
