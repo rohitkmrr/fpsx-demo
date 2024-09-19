@@ -4,12 +4,6 @@
       {
         "task_name": "task1",
         "script_name": "script1.jmx",
-        "user_file": "users1.csv",
-        "data_files": {
-          "account_file": "accounts.csv",
-          "opportunity_file": "opportunities.csv",
-          "contact_file": "contacts.csv"
-        },
         "arguments": {
           "threads": 100,
           "ramp_up": 30,
