@@ -10,7 +10,7 @@
           "opportunity_file": "opportunities.csv",
           "contact_file": "contacts.csv"
         },
-        "jmeter_args": {
+        "arguments": {
           "threads": 100,
           "ramp_up": 30,
           "duration": 600
