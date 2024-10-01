@@ -17,7 +17,7 @@
         }
       },
       {
-        "task_name": "task1",
+        "task_name": "task2",
         "script_name": "script1.jmx",
         "users_file": "users1.csv",
         "data_files":
