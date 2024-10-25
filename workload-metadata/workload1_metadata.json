@@ -12,7 +12,7 @@
       },
       {
         "task_name": "task2",
-          "load_type": "jmeter",
+        "load_type": "jmeter",
         "script_name": "script1.jmx",
         "users_file": "users1.csv"
       }
