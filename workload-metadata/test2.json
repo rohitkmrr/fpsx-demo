@@ -1,23 +1,7 @@
 {
   "tasks": [
     {
-      "task_type": "jmeter",
-      "version": "5.6.3",
-      "task_name": "chatter-1",
-      "script_name": "CW-ChatterRead-StandardObjects-01.jmx",
-      "users_file": "cw-chatter-users-618.csv",
-      "data_files": {
-        "account_file": "accounts.csv",
-        "opportunity_file": "opportunities.csv",
-        "contact_file": "contacts.csv"
-      },
-      "user_params": {
-        "key1": "val1",
-        "key2": "val2"
-      }
-    },
-    {
-      "task_type": "playwright",
+      "load_type": "playwright",
       "task_name": "org618-top-user-flow",
       "users_file": "cw-chatter-users-618.csv",
       "duration_mins": 120,
