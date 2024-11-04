@@ -18,7 +18,7 @@
           "data_files": [
             {
               "file": "contacts.csv",
-              "sharing_mode" : "random" // or "sequential"
+              "sharing_mode" : "random" 
             }
           ]
         },
@@ -32,7 +32,7 @@
           "data_files": [
             {
               "file": "contacts.csv",
-              "sharing_mode" : "random" // or "sequential"
+              "sharing_mode" : "random"
             }
           ]
         }
