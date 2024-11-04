@@ -10,8 +10,8 @@
       "scripts": [
         {
           "script_name": "org618-user-flow-1.js",
-          "allocation_percent" : 50,
-          "user_params": {
+          "user_allocation_percent" : 50,
+          "arguments": {
             "key1": "val1",
             "key2": "val2"
           },
@@ -24,8 +24,8 @@
         },
         {
           "script_name": "org618-user-flow-2.js",
-          "allocation_percent" : 50,
-          "user_params": {
+          "user_allocation_percent" : 50,
+          "arguments": {
             "key1": "val1",
             "key2": "val2"
           },
