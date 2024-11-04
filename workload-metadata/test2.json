@@ -1,12 +1,56 @@
 {
-  "jmeter_version" : "5.6.3",
   "tasks": [
     {
-      "task_name": "task1",
-      "script_name": "script1.jmx",
-      "data_files": [
+      "task_type": "jmeter",
+      "version": "5.6.3",
+      "task_name": "chatter-1",
+      "script_name": "CW-ChatterRead-StandardObjects-01.jmx",
+      "users_file": "cw-chatter-users-618.csv",
+      "data_files": {
+        "account_file": "accounts.csv",
+        "opportunity_file": "opportunities.csv",
+        "contact_file": "contacts.csv"
+      },
+      "user_params": {
+        "key1": "val1",
+        "key2": "val2"
+      }
+    },
+    {
+      "task_type": "playwright",
+      "task_name": "org618-top-user-flow",
+      "users_file": "cw-chatter-users-618.csv",
+      "duration_mins": 120,
+      "ramp_up_interval_millis": 3000,
+      "number_users": 100,
+      "scripts": [
         {
-
+          "script_name": "org618-user-flow-1.js",
+          "allocation_percent" : 50,
+          "user_params": {
+            "key1": "val1",
+            "key2": "val2"
+          },
+          "data_files": [
+            {
+              "file": "contacts.csv",
+              "sharing_mode" : "random" // or "sequential"
+            }
+          ]
+        },
+        {
+          "script_name": "org618-user-flow-2.js",
+          "allocation_percent" : 50,
+          "user_params": {
+            "key1": "val1",
+            "key2": "val2"
+          },
+          "data_files": [
+            {
+              "file": "contacts.csv",
+              "sharing_mode" : "random" // or "sequential"
+            }
+          ]
         }
       ]
     }
