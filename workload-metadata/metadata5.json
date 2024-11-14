@@ -1,7 +1,8 @@
 {
-  "jmeter_version" : "5.6.3",
+  "duration_in_mins", 10,
   "tasks": [
     {
+      "max_duration_in_mins", 10,
     "task_name": "oom",
     "script_name": "oom.jmx",
     "users_file": "users1.csv",
