@@ -1,5 +1,5 @@
 {
-  "duration_in_mins", 10,
+  "max_duration", 10,
   "tasks": [
     {
       "max_duration_in_mins", 10,
