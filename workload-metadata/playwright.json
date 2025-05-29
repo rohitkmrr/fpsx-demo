@@ -20,7 +20,7 @@
                         {
                             "file": "contacts.csv",
                             "reading_mode": "random",
-                            "rewind_on_end_of_list": "true"
+                            "rewind_on_end_of_list": true
                         }
                     ]
                 }
