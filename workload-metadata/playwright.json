@@ -1,4 +1,5 @@
 {
+    "max_duration": 10,
     "tasks": [
         {
             "load_type": "playwright",
