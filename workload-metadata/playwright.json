@@ -6,9 +6,9 @@
             "version": "1.0.0",
             "task_name": "org618-top-user-flow",
             "users_file": "cw-chatter-users-618.csv",
-            "max_duration_in_mins": 10,
+            "max_duration_in_mins": 11,
             "ramp_up_interval_millis": 3000,
-            "users_count": 11,
+            "users_count": 10,
             "scripts": [
                 {
                     "script_name": "org618-user-flow-1.js",
