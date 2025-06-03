@@ -41,7 +41,7 @@ test('Salesforce Recording - Wed Oct 09 2024 12:49:56 GMT+0530 (India Standard T
 
   await page.click('a[data-label="Lightning"] > div.slds-size_small b')
 
-  await delay(5000)
+  await delay(300000)
   
   await page.click(
     'button[type="button"] > div.tooltipTrigger span.uiImage',
