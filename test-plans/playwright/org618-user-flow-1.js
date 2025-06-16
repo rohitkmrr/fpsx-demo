@@ -1,5 +1,4 @@
 import { test } from '@playwright/test';
-import config from "@/config/config";
 
 const delay = (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms))
@@ -13,13 +12,16 @@ test('Salesforce Recording - Wed Oct 09 2024 12:49:56 GMT+0530 (India Standard T
   await page.goto('https://sdb30.perf2t.pc-rnd.pc-aws.salesforce.com');
   await page.screenshot({ path: '/results/screenshot.png' });
 
+  const username = process.env.username;
+  const password = process.env.password;
+
   await page.click('div > form[name="login"] input[type="email"]');
   await page.fill(
     'div > form[name="login"] input[type="email"]',
-    'cwnebula1@618.org',
+    username,
   );
   await page.click('div > div input[type="password"]');
-  await page.fill('div > div input[type="password"]', config.get('password'));
+  await page.fill('div > div input[type="password"]', password);
 
   await page.click('div > div input[type="submit"]')
 
