@@ -24,11 +24,18 @@ test('Random pass/fail test after Salesforce login', async ({ page }) => {
   await page.waitForLoadState('domcontentloaded');
   await delay(1000); // Post-login buffer
 
-  // Generate random number
-  const randomNumber = Math.floor(Math.random() * 100);
-  console.log(`Generated random number: ${randomNumber}`);
+  // Generate random number between 1 and 9 for 10s to 90s delay
+  const delayMultiplier = Math.floor(Math.random() * 9) + 1;
+  const delayInMs = delayMultiplier * 10 * 1000;
 
-  if (randomNumber % 2 === 0) {
+  console.log(`Delaying for ${delayInMs / 1000} seconds...`);
+  await delay(delayInMs);
+
+  // Use a second random number for pass/fail logic
+  const randomOutcome = Math.floor(Math.random() * 100);
+  console.log(`Generated random number for pass/fail: ${randomOutcome}`);
+
+  if (randomOutcome % 2 === 0) {
     console.log('Even number, marking test as successful.');
     // Optionally perform any post-login validation or action
   } else {
