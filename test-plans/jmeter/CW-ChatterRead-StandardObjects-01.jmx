@@ -16,7 +16,7 @@
           </elementProp>
           <elementProp name="HOST" elementType="Argument">
             <stringProp name="Argument.name">HOST</stringProp>
-            <stringProp name="Argument.value">${__P(host,sdb30.perf2t.pc-rnd.pc-aws.salesforce.com)}</stringProp>
+            <stringProp name="Argument.value">${__P(host,dummy.salesforce.com)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PORT" elementType="Argument">
