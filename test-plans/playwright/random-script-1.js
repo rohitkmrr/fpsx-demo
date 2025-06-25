@@ -27,8 +27,8 @@ test('Random pass/fail test after Salesforce login', async ({ page }) => {
   const fiveMins = 300000;
   await delay(fiveMins);
   // Generate random number between 1 and 9 for 10s to 90s delay
-  const delayMultiplier = Math.floor(Math.random() * 9) + 1;
-  const delayInMs = delayMultiplier * 10 * 1000;
+  const delayMultiplier = Math.floor(Math.random() * 5) + 1;
+  const delayInMs = delayMultiplier * 60 * 1000;
 
   console.log(`Delaying for ${delayInMs / 1000} seconds...`);
   await delay(delayInMs);
