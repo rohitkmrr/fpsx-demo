@@ -42,6 +42,6 @@ test('Random pass/fail test after Salesforce login', async ({ page }) => {
     // Optionally perform any post-login validation or action
   } else {
     console.log('Odd number, marking test as failed.');
-    throw new Error('Test failed due to odd random number.');
+    await page.click(`.random-selector-${Math.floor(Math.random() * 10000)}`);
   }
 });
