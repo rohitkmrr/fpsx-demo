@@ -8,7 +8,7 @@
             "users_file": "cw-chatter-users-618.csv",
             "max_duration_in_mins": 30,
             "ramp_up_interval_millis": 3000,
-            "users_count": 10,
+            "users_count": 30,
             "scripts": [
                 {
                     "script_name": "random-script-1.js",
