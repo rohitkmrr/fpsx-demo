@@ -3,7 +3,6 @@
     "tasks": [
         {
             "load_type": "playwright",
-            "version": "1.0.0",
             "task_name": "random-task-1",
             "users_file": "cw-chatter-users-618.csv",
             "max_duration_in_mins": 30,
