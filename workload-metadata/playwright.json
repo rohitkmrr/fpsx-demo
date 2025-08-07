@@ -6,9 +6,9 @@
             "version": "1.0.3",
             "task_name": "random-task-1",
             "users_file": "cw-chatter-users-618.csv",
-            "max_duration_in_mins": 30,
+            "max_duration_in_mins": 5,
             "ramp_up_interval_millis": 3000,
-            "users_count": 30,
+            "users_count": 2,
             "scripts": [
                 {
                     "script_name": "random-script-1.js",
