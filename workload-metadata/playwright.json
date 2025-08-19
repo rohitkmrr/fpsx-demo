@@ -4,19 +4,15 @@
         {
             "load_type": "playwright",
             "version": "1.0.3",
-            "task_name": "random-task-1",
+            "task_name": "valid-flow",
             "users_file": "cw-chatter-users-618.csv",
             "max_duration_in_mins": 40,
             "ramp_up_interval_millis": 3000,
             "users_count": 2,
             "scripts": [
                 {
-                    "script_name": "random-script-1.js",
+                    "script_name": "navigation-playwright.js",
                     "user_allocation_percent": 100,
-                    "arguments": {
-                        "key1": "val1",
-                        "key2": "val2"
-                    },
                     "data_files": [
                         {
                             "file": "contacts.csv",
