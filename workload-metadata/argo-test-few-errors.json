@@ -1,0 +1,9 @@
+{
+  "jmeter_version": "5.6.3",
+  "tasks": [
+    {
+      "task_name": "argo-test-1",
+      "script_name": "argo-test.jmx"
+    }
+  ]
+}
