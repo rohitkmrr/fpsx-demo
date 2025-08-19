@@ -12,14 +12,16 @@ test('Salesforce Recording - Tue Aug 19 2025 11:44:52 GMT+0530 (India Standard T
       page.setDefaultTimeout(120000);
       await page.setViewportSize({ width: 3440, height: 1318 });
       await page.goto('https://sdb29.perf2r.pc-rnd.pc-aws.salesforce.com/');
-      const username = config.get('username');
+
+      const username = process.env.username;
       // tagName = "INPUT", inputType = "email", value = "cwchatteruser1@618.org", alternative selectors = ['aria/Username[role="textbox"]']
       await page.fill('div > form[name="login"] input[type="email"]', username);
       await delay(968);
       // tagName = "INPUT", inputType = "password", alternative selectors = ['aria/Password']
       await page.click('div > div input[type="password"]');
       await delay(1134);
-      const password = config.get('password');
+      
+      const password = process.env.password;
       // tagName = "INPUT", inputType = "password", value = "******", alternative selectors = ['aria/Password']
       await page.fill('div > div input[type="password"]', password);
       await delay(573);
