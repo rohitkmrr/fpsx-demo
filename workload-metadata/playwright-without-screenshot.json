@@ -11,7 +11,7 @@
       "users_count": 7,
       "scripts": [
         {
-          "script_name": "without-screenshot-script.js",
+          "script_name": "invalid-playwright.js",
           "user_allocation_percent": 100,
           "arguments": {
             "key1": "val1",
